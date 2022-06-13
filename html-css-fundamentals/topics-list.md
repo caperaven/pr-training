@@ -1,0 +1,54 @@
+# HTML & CSS Fundamentals study guide
+
+## HTML
+
+- Dev tools elements inspector
+    - what is it
+    - how to use it
+    - link to dev tools info for elements
+- Elements
+    - How to define
+    - Open vs close elements
+    - div vs input for example
+    - attributes
+    - different types of elements
+        - div
+        - span
+        - ul
+        - p
+        - input
+        - select
+        - a
+        - nav
+        - main
+        - footer
+        - header
+        - section
+        - article
+        - aside
+        - template element
+    - nesting elements
+    - link to elements on mdn
+    - aria-attributes for accessibility
+        - aria-label
+        - roles
+        - tabindex
+        - kieran to fill in link to aria guide
+- HTML document structure
+    - script element
+    - style element
+    - head, body elements
+    - link to mdn document structure
+## CSS
+- What is CSS
+- Inline style vs style element and style sheet
+- CSS selectors
+- css display property e.g display block
+- margin and padding properties
+- colors background etc
+- sizing elements
+- border property
+- pseudo class e.g :hover, :focus
+- media rules / queries
+- css flexbox
+- css grid
