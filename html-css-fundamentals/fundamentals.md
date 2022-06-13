@@ -46,10 +46,11 @@ HTML markup
 </body>
 ```
 
-Answers will be formatted like
-```javascript 
- element = document.querySelector("your answer here");
- element = document.querySelector("your answer here");
+Please add the selectors to the style element below
+```html
+<style>
+    your selectors here...
+</style>
  //etc..
 ```
 
