@@ -43,12 +43,17 @@
 - What is CSS
 - Inline style vs style element and style sheet
 - CSS selectors
-- css display property e.g display block
-- margin and padding properties
-- colors background etc
-- sizing elements
-- border property
-- pseudo class e.g :hover, :focus
-- media rules / queries
-- css flexbox
-- css grid
+- CSS Box model
+- CSS display property e.g display block
+- Margin and padding properties
+- Colors background etc
+- Sizing elements
+- Border property
+- Pseudo class e.g :hover, :focus
+- Media rules / queries
+- CSS position e.g static, relative etc
+- CSS overflow
+- CSS transitions
+- CSS animations
+- CSS flexbox
+- CSS grid
