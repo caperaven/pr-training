@@ -85,10 +85,20 @@ This is a great resource to bookmark as it provides each HTML tag, a link to the
       - how to use it
       - link to dev tools info for elements
 ## CSS
-- What is CSS
-- Inline style vs style element and style sheet
-- CSS selectors
-- CSS Box model
+CSS is used to style elements on your webpage using style rules matching elements with selectors.  
+
+Read what CSS is below.  
+[MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+Read the introductory content on CSS on MDN  
+[CSS Intro](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+Go through the topics on the CSS first steps MDN page  
+[First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+
+Understand how the CSS display property affects the elements box model.  
+[Display Property](https://css-tricks.com/almanac/properties/d/display/)
+
 - CSS display property e.g display block
 - Margin and padding properties
 - Colors background etc
