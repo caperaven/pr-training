@@ -1,6 +1,11 @@
 # HTML & CSS Fundamentals
 ## HTML
 
+### Introduction
+
+HyperText Markup Language (HTML) is the most basic building block of the internet. It defined the structure of a web page while other technologies assist to define the appearance (CSS) and behaviour (JavaScript).
+
+
 ### Anatomy of an HTML element
 
 Every HTML element has tags representing what kind of HTML element it is and how it behaves.
@@ -27,6 +32,21 @@ Elements can be nested inside other elements. It is important to make sure your 
 Using HTML, define the following
 
 - a span, inside a paragraph, inside a div
+
+### Empty Elements
+
+Elements that do not have a closing tag are referred to as empty elements. And example of this is an input element
+
+Defined the following:
+
+- An image element
+- An input element of type text
+- An input element of type button
+- An input element of type range, with a minimum value of 5 and a maximum value of 10
+
+### HTML Document Structure
+
+
 
 ## CSS
 ---
