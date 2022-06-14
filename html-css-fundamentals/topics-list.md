@@ -120,15 +120,30 @@ different to the number and text inputs previously mentioned.
       - how to use it
       - link to dev tools info for elements
 ## CSS
-- What is CSS
-- Inline style vs style element and style sheet
-- CSS selectors
-- css display property e.g display block
-- margin and padding properties
-- colors background etc
-- sizing elements
-- border property
-- pseudo class e.g :hover, :focus
-- media rules / queries
-- css flexbox
-- css grid
+CSS is used to style elements on your webpage using style rules matching elements with selectors.  
+
+Read what CSS is below.  
+[MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+Read the introductory content on CSS on MDN  
+[CSS Intro](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+Go through the topics on the CSS first steps MDN page  
+[First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+
+Understand how the CSS display property affects the elements box model.  
+[Display Property](https://css-tricks.com/almanac/properties/d/display/)
+
+- CSS display property e.g display block
+- Margin and padding properties
+- Colors background etc
+- Sizing elements
+- Border property
+- Pseudo class e.g :hover, :focus
+- Media rules / queries
+- CSS position e.g static, relative etc
+- CSS overflow
+- CSS transitions
+- CSS animations
+- CSS flexbox
+- CSS grid
