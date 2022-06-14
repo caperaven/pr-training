@@ -66,7 +66,42 @@ There are an incredible amount of elements, each with their own rules and purpos
 For a breakdown on all the HTML elements available, you can refer to MDN's [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 This is a great resource to bookmark as it provides each HTML tag, a link to the documentation of that element, and a short description of what that element represents.
 
-#### Element Attributes and Properties
+#### Element Attributes
+
+In looking through the above elements, you must have come across attributes. Attributes define additional characteristics
+or properties of the element, for example, the **type** of input you would want to interact with, or the **width** and **height** of 
+an element. Each element has its own set of standard attributes. There is a list of [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+that consists of attributes shared by all HTML elements, however some of them will not have an effect on some elements.
+
+Attributes are always defined on the start tag of an element. Take a look at the input elements with attributes defined below:
+
+```html
+<input type="text">
+```
+Above is an input element with the type attribute set. In this case we are specifying the type of the input needs to be text and is rendered as:
+
+<input type="text">
+
+```html
+<input type="number">
+```
+Here we're also using an input element, however in this case we're setting the type to be number, and will only accept 
+numbers as inputs. If you try and type letters into the input, it will not respond, it will only respond when numbers are inputted:
+
+<input type="number">
+
+You will also notice, although it looks very similar to the text input in the previous example, it is has a different response when you
+hover your mouse over it, displaying two controls you can interact with to cycle the number in the input up or down.
+
+```html
+<input type="color">
+```
+<input type="color">
+
+In this final input example, we are setting the type to "color" which in-turn creates a colour picker tool which is significantly
+different to the number and text inputs previously mentioned.
+
+
 
 #### Accessibility
 - aria-label
