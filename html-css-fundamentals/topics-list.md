@@ -70,8 +70,12 @@ This is a great resource to bookmark as it provides each HTML tag, a link to the
 
 In looking through the above elements, you must have come across attributes. Attributes define additional characteristics
 or properties of the element, for example, the **type** of input you would want to interact with, or the **width** and **height** of 
-an element. Each element has its own set of standard attributes. There is a list of [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
-that consists of attributes shared by all HTML elements, however some of them will not have an effect on some elements.
+an element. 
+
+Each element has its own set of standard attributes. It's not important to know each and every attribute for every element, 
+but it is important to know what attributes are, and where you could go to find out what attributes can be set on which elements and the effect of doing so.  
+There is a list of [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+that consists of attributes shared by all HTML elements, however some global attributes will not have an effect on some elements.
 
 Attributes are always defined on the start tag of an element. Take a look at the input elements with attributes defined below:
 
@@ -101,24 +105,52 @@ hover your mouse over it, displaying two controls you can interact with to cycle
 In this final input example, we are setting the type to "color" which in-turn creates a colour picker tool which is significantly
 different to the number and text inputs previously mentioned.
 
-
-
-#### Accessibility
-- aria-label
-- roles
-- tabindex
-- kieran to fill in link to aria guide
+As shown in the example above, attributes can affect both the look and behaviour of an element. [MDN](https://developer.mozilla.org/en-US/) is the go-to resource when looking at a new element you haven't
+used before, as there is usually an Attributes section detailing the standard attributes that can be set on the element, as well as their affect. Take
+a look at the [Attributes section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attributes) for the input element as an example.
 
 #### HTML document structure
-  - script element
-  - style element
-  - head, body elements
-  - link to mdn document structure
 
-  - Dev tools elements inspector
-      - what is it
-      - how to use it
-      - link to dev tools info for elements
+Every HTML document follows a similar sort of pattern which is outlined in the following resource: [Anatomy of an HTML document](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_document).
+
+There are two important elements that help bring in the functionality of the other core technologies of the web, being CSS and JavaScript, and they are the 
+[style](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style), and [script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) elements.
+Now at this point, your knowledge on CSS and JavaScript might be minimal-to-none, and that's fine. It's just important to know
+these two elements exist and that they assist in bringing in CSS and JavaScript into a document. They are however not the only ways
+of achieving this. But you will learn more on incorporating CSS and JavaScript into your web pages in time.
+
+#### Accessibility
+
+Accessibility is a broad subject, however it is essential to keep accessibility in mind when designing and developing features
+as it enables people, whatever their hardware, software, language, location, or ability to use the Web. Take a look at the [W3C's arguments for accessibility](https://www.w3.org/standards/webdesign/accessibility).
+for an overview as to why accessibility plays a crucial role in making the web accessible to all. [MDN's article on accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) 
+also provide a great breakdown of what accessibility deals with and its importance.
+
+You should now have a pretty good idea as to what accessibility is. Please read just the [introduction](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML), [HTML and accessibility section](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#html_and_accessibility),
+as well as the [Good Semantics section](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#good_semantics) 
+of MDN's HTML: A good basis for accessibility article, as these sections describe key concepts to be aware of.
+
+Before jumping into accessibility patterns and principles, please read this article on the [core principles](https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/) 
+that you must keep in mind when implementing accessibility on your features.
+
+When ever you're developing a new piece of functionality, a good resource to check is the [ARIA Authoring Practices Guide Patterns](https://www.w3.org/WAI/ARIA/apg/patterns/)
+which provides common feature use cases but from an accessibility perspective. Take a look at the [Button Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/button/) as an example, 
+it provides a brief as to what a button is, the keyboard interaction expected when something is acting as a button, 
+as well as the aria roles, states and properties (usually controlled through an element's attributes) associated with the button pattern.
+
+A good resource to bookmark and consult when dealing with accessibility is the [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) 
+which provides further links to useful resources and the implementation of accessibility concepts.
+
+It is also important to be able to test accessibility on the pages and features you author. Please read W3C's [Evaluating Web Accessibility Overview](https://www.w3.org/WAI/test-evaluate/)
+for an overview of the processes involved in testing for accessibility. It would also be a good idea to download and get to grips with the [NVDA screen reader](https://www.nvaccess.org/download/),
+an assistive technology predominantly used by people with visual impairments/disabilities.
+
+#### HTML Debugging
+
+It is important to have an idea of how to debug HTML issues when they arrive. MDN provide an active learning article
+that deals with HTML debugging. Please work through the [Active learning: Studying permissive code](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML#active_learning_studying_permissive_code)
+example which will walk you through a typical debugging scenario and the tools you can use to find and fix the issues.
+
 ## CSS
 CSS is used to style elements on your webpage using style rules matching elements with selectors.  
 

@@ -1,4 +1,7 @@
 # HTML & CSS Fundamentals
+
+The aim of this document is to test your understanding of the core fundamentals around HTML and CSS.
+
 ## HTML
 
 ### Introduction
