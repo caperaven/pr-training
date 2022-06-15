@@ -119,6 +119,12 @@ Now at this point, your knowledge on CSS and JavaScript might be minimal-to-none
 these two elements exist and that they assist in bringing in CSS and JavaScript into a document. They are however not the only ways
 of achieving this. But you will learn more on incorporating CSS and JavaScript into your web pages in time.
 
+#### HTML Debugging
+
+It is important to have an idea of how to debug HTML issues when they arrive. MDN provide an active learning article
+that deals with HTML debugging. Please work through the [Active learning: Studying permissive code](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML#active_learning_studying_permissive_code)
+example which will walk you through a typical debugging scenario and the tools you can use to find and fix the issues.
+
 #### Accessibility
 
 Accessibility is a broad subject, however it is essential to keep accessibility in mind when designing and developing features
@@ -145,11 +151,6 @@ It is also important to be able to test accessibility on the pages and features 
 for an overview of the processes involved in testing for accessibility. It would also be a good idea to download and get to grips with the [NVDA screen reader](https://www.nvaccess.org/download/),
 an assistive technology predominantly used by people with visual impairments/disabilities.
 
-#### HTML Debugging
-
-It is important to have an idea of how to debug HTML issues when they arrive. MDN provide an active learning article
-that deals with HTML debugging. Please work through the [Active learning: Studying permissive code](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML#active_learning_studying_permissive_code)
-example which will walk you through a typical debugging scenario and the tools you can use to find and fix the issues.
 
 ## CSS
 CSS is used to style elements on your webpage using style rules matching elements with selectors.  
