@@ -102,7 +102,7 @@ please update the example to ensure the correct pattern's roles and attributes a
 ## Selectors
 CSS selector allow you to retrieve elements from a webpage, there are a few different ways to select elements.
 
-Using each one the selectors below query the element. 
+Query for the div element using each one of the below.
  - \#
  - .
  - my-element
@@ -120,11 +120,10 @@ Please add the selectors to the style element below
 <style>
     your selectors here...
 </style>
- //etc..
 ```
 
 ## Border, Margin, Padding, Font Style
-Please provide the style to create this  
+Please provide the CSS to create this  
 ![Example 1](/html-css-fundamentals/img/example1.PNG)  
 
 
