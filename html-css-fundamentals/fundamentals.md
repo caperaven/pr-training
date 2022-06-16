@@ -124,7 +124,7 @@ Please add the selectors to the style element below
 
 ## Border, Margin, Padding, Font Style
 Please provide the CSS to create this  
-![Example 1](/html-css-fundamentals/img/example1.PNG)  
+![Example 1](/html-css-fundamentals/img/e1.PNG)  
 
 
 Using the following HTML 
@@ -137,7 +137,7 @@ Using the following HTML
 
 ## Position
 Please recreate the following example  
-![Example 2](/html-css-fundamentals/img/example2.PNG)  
+![Example 2](/html-css-fundamentals/img/e2.PNG)  
 
 Using this HTML
 ```html
@@ -151,7 +151,7 @@ Using this HTML
 
 ## Transition and pseudo classes
 Please recreate the following  
-![Example 4](/html-css-fundamentals/img/example6.gif)  
+![Example 4](/html-css-fundamentals/img/e6.gif)  
 Using this HTML
 ```html
 <body>
@@ -163,9 +163,9 @@ Using this HTML
 
 ## Flexbox
 Set up an HTML example with CSS where changing one CSS property will change the flexbox layout from this. Please provide html and CSS used to set this up.  
-![Example 3](/html-css-fundamentals/img/example3.PNG)  
+![Example 3](/html-css-fundamentals/img/e3.PNG)  
 to this  
-![Example 4](/html-css-fundamentals/img/example4.PNG)  
+![Example 4](/html-css-fundamentals/img/e4.PNG)  
 
 ## Grid
 
@@ -182,7 +182,7 @@ Using this HTML please recreate the following example using CSS
 </body>
 ```
 Example  
-![Example 5](/html-css-fundamentals/img/example5.PNG)  
+![Example 5](/html-css-fundamentals/img/e5.PNG)  
 
 Please provide CSS used
 
