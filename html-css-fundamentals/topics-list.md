@@ -177,6 +177,9 @@ Margin property and how it affects elements its applied to.
 Padding and how it differs from margin.  
 [Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 
+Basic fonts and styling  
+[Fonts and Styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)  
+
 How to set colours on elements and the different colour properties.
 For example text colour and background colour.  
 [Colour](https://developer.mozilla.org/en-US/docs/Web/CSS/color)  

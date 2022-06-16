@@ -112,7 +112,7 @@ Using each one the selectors below query the element.
 HTML markup
 ```html
 <body>
-    <my-element id="my-id" class="my-class" data-id="123">
+    <div id="my-id" class="my-class" data-id="123"></div>
 </body>
 ```
 
@@ -123,6 +123,20 @@ Please add the selectors to the style element below
 </style>
  //etc..
 ```
+
+### Border, Margin, Padding, Font Style
+Please provide the style to create this  
+![Example 1](/html-css-fundamentals/img/example1.PNG)  
+
+
+Using the following HTML 
+```html
+<div class="my-box">
+    <span class="my-span1">Hello</span>
+    <span class="my-span2">World</span>
+</div>
+```
+
 
 
 
