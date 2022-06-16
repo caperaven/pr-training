@@ -151,7 +151,7 @@ Using this HTML
 
 ## Transition and pseudo classes
 Please recreate the following  
-![Example 4](/html-css-fundamentals/img/Example6.gif)  
+![Example 4](/html-css-fundamentals/img/example6.gif)  
 Using this HTML
 ```html
 <body>
@@ -165,7 +165,7 @@ Using this HTML
 Set up an HTML example with CSS where changing one CSS property will change the flexbox layout from this. Please provide html and CSS used to set this up.  
 ![Example 3](/html-css-fundamentals/img/example3.PNG)  
 to this  
-![Example 4](/html-css-fundamentals/img/Example4.PNG)  
+![Example 4](/html-css-fundamentals/img/example4.PNG)  
 
 ## Grid
 
@@ -182,7 +182,7 @@ Using this HTML please recreate the following example using CSS
 </body>
 ```
 Example  
-![Example 5](/html-css-fundamentals/img/Example5.PNG)  
+![Example 5](/html-css-fundamentals/img/example5.PNG)  
 
 Please provide CSS used
 
