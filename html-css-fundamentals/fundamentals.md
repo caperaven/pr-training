@@ -136,8 +136,3 @@ Using the following HTML
     <span class="my-span2">World</span>
 </div>
 ```
-
-
-
-
-## COMBINED
