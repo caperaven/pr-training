@@ -96,11 +96,10 @@ Given the following:
 </div>
 ```
 If it were acting as an alert dialog which is intended to communicate an important message and acquire a response from the user,
-please update the example to ensure the correct pattern's roles and attributes are applied
+please update the example to ensure the correct pattern's roles and attributes are applied    
 
-## CSS
----
-### Selectors
+# CSS  
+## Selectors
 CSS selector allow you to retrieve elements from a webpage, there are a few different ways to select elements.
 
 Using each one the selectors below query the element. 
@@ -124,15 +123,70 @@ Please add the selectors to the style element below
  //etc..
 ```
 
-### Border, Margin, Padding, Font Style
+## Border, Margin, Padding, Font Style
 Please provide the style to create this  
 ![Example 1](/html-css-fundamentals/img/example1.PNG)  
 
 
 Using the following HTML 
 ```html
-<div class="my-box">
-    <span class="my-span1">Hello</span>
-    <span class="my-span2">World</span>
+<div id="my-box">
+    <span id="my-span1">Hello</span>
+    <span id="my-span2">World</span>
 </div>
 ```
+
+## Position
+Please recreate the following example  
+![Example 2](/html-css-fundamentals/img/example2.PNG)  
+
+Using this HTML
+```html
+<body>
+    <div id="div1">Box 1</div>
+    <div id="div2">Box 2</div>
+    <div id="div3">Box 3</div>
+    <div id="div4">Box 4</div>
+</body>
+```
+
+## Transition and pseudo classes
+Please recreate the following  
+![Example 4](/html-css-fundamentals/img/Example6.gif)  
+Using this HTML
+```html
+<body>
+    <div id="target1"></div>
+    <div id="target2"></div>
+    <div id="target3"></div>
+</body>
+```
+
+## Flexbox
+Set up an HTML example with CSS where changing one CSS property will change the flexbox layout from this. Please provide html and CSS used to set this up.  
+![Example 3](/html-css-fundamentals/img/example3.PNG)  
+to this  
+![Example 4](/html-css-fundamentals/img/Example4.PNG)  
+
+## Grid
+
+Using this HTML please recreate the following example using CSS
+
+```html
+<body>
+    <div id="grid">
+        <div id="div1"><span>Item 1</span></div>
+        <div id="div2"><span>Item 2</span></div>
+        <div id="div3"><span>Item 3</span></div>
+        <div id="div4"><span>Item 4</span></div>
+    </div>
+</body>
+```
+Example  
+![Example 5](/html-css-fundamentals/img/Example5.PNG)  
+
+Please provide CSS used
+
+
+
+
