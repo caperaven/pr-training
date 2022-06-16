@@ -155,6 +155,10 @@ an assistive technology predominantly used by people with visual impairments/dis
 ## CSS
 CSS is used to style elements on your webpage using style rules matching elements with selectors.  
 
+Feel free to explore other content about the topics listed below for example if you prefer watching videos do that after reading through the provided link.
+
+Please create a simple web page where you can try out the concepts in the content.
+
 Read what CSS is below.  
 [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
@@ -167,16 +171,56 @@ Go through the topics on the CSS first steps MDN page
 Understand how the CSS display property affects the elements box model.  
 [Display Property](https://css-tricks.com/almanac/properties/d/display/)
 
-- CSS display property e.g display block
-- Margin and padding properties
-- Colors background etc
-- Sizing elements
-- Border property
-- Pseudo class e.g :hover, :focus
-- Media rules / queries
-- CSS position e.g static, relative etc
-- CSS overflow
-- CSS transitions
-- CSS animations
-- CSS flexbox
-- CSS grid
+Margin property and how it affects elements its applied to.  
+[Margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+
+Padding and how it differs from margin.  
+[Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
+How to set colours on elements and the different colour properties.
+For example text colour and background colour.  
+[Colour](https://developer.mozilla.org/en-US/docs/Web/CSS/color)  
+[Background Colour](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+
+How to size elements, first read about the different box-sizing property values, then read about height and width.  
+[Box-Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)  
+[Height](https://developer.mozilla.org/en-US/docs/Web/CSS/height)  
+[Width](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
+
+How to set borders on elements.  
+[Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+Pseudo classes allow us to style focused, active, hovered over elements etc.  
+[:focused](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)  
+[:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)  
+[:active](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)  
+
+Get an understanding of what media queries are and why they would be used.  
+[Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+Understand the difference between the different position property values.
+- static 
+- relative
+- absolute
+- fixed
+- sticky  
+
+[Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)  
+
+Understand what happens when content no longer fits int an element please see the overflow property.  
+[Overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+& [Text Overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow)  
+
+Using transitions to affect the change of a CSS property from ove value to another.  
+[Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)  
+
+
+What CSS animations are and basic usage of them.  
+[Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)  
+
+How to control your layouts using flexbox.  
+[Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
+
+Basic usage of CSS grid but a good understanding of what it is and what it gives us.  
+[Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)  
+[A complete guide to CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/)  
