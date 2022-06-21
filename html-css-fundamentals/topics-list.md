@@ -1,4 +1,4 @@
-# HTML & CSS Fundamentals study guide
+# HTML & CSS Fundamentals Study Guide
 
 Included within this document is a list of fundamental concepts regarding two of the web's core building blocks - HTML and CSS.
 Links to further materials and resources are provided within each subsection.

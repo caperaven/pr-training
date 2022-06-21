@@ -1,4 +1,4 @@
-# HTML & CSS Fundamentals
+# HTML & CSS Fundamentals Practical
 
 The aim of this document is to test your understanding of the core fundamentals around HTML and CSS.
 
