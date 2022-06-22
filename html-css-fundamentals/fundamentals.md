@@ -2,6 +2,11 @@
 
 The aim of this document is to test your understanding of the core fundamentals around HTML and CSS.
 
+## Answering Questions
+
+Included within the answers directory are HTML files you can use when answering the questions listed below. Each file corresponds
+with a subsection below. When you're ready, you will submit these files for review.
+
 ## HTML
 
 ### Introduction
@@ -74,7 +79,7 @@ Question 2:
 
 Given three spans as defined below:
 ```html
-<span id="span1">Interactive Item 1</span><span id="span1">Interactive Item 2</span><span id="span1">Interactive Item 3</span>
+<span id="span1">Interactive Item 1</span><span id="span2">Interactive Item 2</span><span id="span3">Interactive Item 3</span>
 ```
 please update the spans such that they could be reached using the keyboard
 
@@ -182,9 +187,7 @@ Using this HTML please recreate the following example using CSS
 </body>
 ```
 Example  
-![Example 5](/html-css-fundamentals/img/e5.PNG)  
-
-Please provide CSS used
+![Example 5](/html-css-fundamentals/img/e5.PNG)
 
 
 
