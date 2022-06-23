@@ -194,5 +194,31 @@ Example
 
 ## CSS Variables
 
+Question 1:
+
+Looking at the following example:
+![Example 7](/html-css-fundamentals/img/e7.gif)
+
+Within CSS_VARIABLES_question1.html the above example has been created, but there are a lot of repeating styles - specifically with the use of colour properties. By using the currentColor CSS variable, simplify the styles.
+
+
+Question 2:
+
+Given the following example:
+![Example 8](/html-css-fundamentals/img/e8.gif)
+
+Within CSS_VARIABLES_question2.html, there are a number of repeating CSS properties. Making use of CSS variables, please refactor the styles to be more concise.
+
+
+Question 3:
+
+Looking at the following example:
+![Example 9](/html-css-fundamentals/img/e9.gif)
+
+Inheritance on the boarder property of all the divs is taking place. However, what could we do with our custom variable --outline, to ensure it is not inheritted and applied on the child divs as shown here:
+![Example 10](/html-css-fundamentals/img/e10.gif)
+
+
+
 ## CSS Grid
 

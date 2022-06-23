@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            border: var(--outline);
+            --outline: initial;
+        }
+        body {
+            background: #353535;
+            display: grid;
+            place-items: center;
+            padding-top: 5rem;
+        }
+        .outer {
+            display: grid;
+            place-items: center;
+            height: 15rem;
+            width: 15rem;
+            background: midnightblue;
+            --outline: 0.3rem solid #d000ff
+
+        }
+        .middle {
+            display: grid;
+            place-items: center;
+            height: 10rem;
+            width: 10rem;
+            background: cornflowerblue;
+        }
+        .inner {
+            display: grid;
+            place-items: center;
+            height: 5rem;
+            width: 5rem;
+            background: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="middle">
+            <div class="inner"></div>
+        </div>
+    </div>
+</body>
+
+</html>
