@@ -227,3 +227,10 @@ How to control your layouts using flexbox.
 Basic usage of CSS grid but a good understanding of what it is and what it gives us.  
 [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)  
 [A complete guide to CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/)  
+
+## Further Required Resources
+
+The following two videos are required watching. Take notes and bookmark these resources for later. Questions will be asked on around their content.
+
+1. [CSS [Variable] Secrets](https://www.youtube.com/watch?v=UQRSaG1hQ20)
+2. [CSS Grid Changes EVERYTHING - Amazing Presentation](https://www.youtube.com/watch?v=7kVeCqQCxlk)
