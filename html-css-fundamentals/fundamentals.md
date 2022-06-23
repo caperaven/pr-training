@@ -190,5 +190,9 @@ Example
 ![Example 5](/html-css-fundamentals/img/e5.PNG)
 
 
+# Required Material Questions
 
+## CSS Variables
+
+## CSS Grid
 
