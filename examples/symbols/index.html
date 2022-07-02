@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Symbols</title>
+
+    <style>
+        html, body {
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        div[role="toolbar"] {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .icon-button {
+            width: 2rem;
+            height: 2rem;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Use svg symbols.
+        ----------------
+        This is an easy way to create icons for your application and use them multiple times.
+
+        Documentation:
+        --------------
+        https://developer.mozilla.org/en-US/docs/Web/SVG/Element/symbol
+
+        Download svg at:
+        ----------------
+        https://materialdesignicons.com/
+        1. right click on image you want to use
+        2. in context menu select "view svg"
+        3. copy the path/s and use it in your symbol
+
+        When copying over the path, you can remove the fill attribute as this will interfere with styling.
+        Typically, the result you are looking for should look something like this.
+        <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"/>
+
+        Creating a symbol
+        -----------------
+        symbol elements must be in a svg element.
+        since the svg width is generally 24px by 24px, set the svg width and height accordingly.
+        remember to set the viewBox to "0 0 24 24". because we have this on the svg we don't need to add it to each symbol.
+        if however you use a svg that does not fit this viewBox you will need that to the symbol according to the width and height of the icon.
+
+        create a symbol element in the svg element and give it an id attribute.
+        this is important as you will refer to the icon by that name when using it.
+
+        Using a symbol
+        --------------
+        You can use a symbol with the "use" element.
+        The use element must be in a svg element where the width and height is set to 24 and 24 matching the viewBox size.
+        The use element must have a href attribute referencing the icon name as defined by the symbol id.
+        Note the # before the id, this is a standard css selector for an element by id.
+
+        Creating a toolbar
+        ------------------
+        As a rule buttons should be on a toolbar.
+        There are exceptions but for now lets just say that buttons need to be on a toolbar.
+        To create a toolbar you use a div element and set the role attribute to "toolbar".
+        This is required from a web accessibility perspective but also helps with testing.
+
+        A couple of notes about the button
+        ----------------------------------
+        1. A button should always have an id attribute. This is required for attaching events but also testing.
+        2. The button has a style "icon-button", without this style the location of the icon will be off.
+    -->
+</body>
+
+<svg width="24" height="24" viewBox="0 0 24 24">
+    <symbol id="hamburger">
+        <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"/>
+    </symbol>
+</svg>
+
+<div role="toolbar">
+    <button id="btnMenu" class="icon-button">
+        <svg width="24" height="24">
+            <use href="#hamburger" />
+        </svg>
+    </button>
+</div>
+</html>
