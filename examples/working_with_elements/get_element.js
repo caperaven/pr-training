@@ -46,7 +46,7 @@ function getButtonElement() {
     const b2 = document.querySelector("#mybutton"); // by id
     const b3 = document.getElementById("mybutton"); // by id
     const b4 = document.querySelector(".action-button") // by css class
-    const b5 = document.querySelector("[data-value='value']")
+    const b5 = document.querySelector("[data-value='value']") // by attribute
 
     // more complex example
     // on the div element that has a role attribute with the value "toolbar" is a button with the class "icon"
