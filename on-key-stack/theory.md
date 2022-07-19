@@ -1,7 +1,7 @@
 ### Video Topics
 
 - Binding Engine
-    - Bindable element
+    - What is a binding engine?
     - Binding API (Part 1)
         - Parsing elements
         - Get property
@@ -29,6 +29,7 @@
         - Deeper API functionality
     - HTML Fragments
     - Value converters
+    - Bindable element
     - Template store
     - UI hotswap
         - Perspective element

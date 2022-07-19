@@ -3,12 +3,89 @@
 
 <head>
     <style>
+        * {
+            font-family: 'Courier New', Courier, monospace
+        }
 
+        .my-component {
+            border: 0.115rem solid lightgray;
+            border-radius: 0.3rem;
+            max-width: 30rem;
+            box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem lightgray;
+        }
+
+        .my-component header {
+            display: flex;
+            align-items: center;
+            border-bottom: 0.115rem solid lightgray;
+            padding: 0.5rem;
+            background-color: rgb(245, 245, 245);
+        }
+
+        .my-component header h1 {
+            font-size: 1.2rem;
+            margin: 0 0 0 0.5rem;
+            flex: 1;
+        }
+
+        .my-component img {
+            height: 1.7rem;
+            width: 1.7rem;
+        }
+
+        .my-component footer {
+            display: flex;
+            border-top: 0.115rem solid lightgray;
+            padding: 0.5rem;
+            justify-content: flex-end;
+        }
+
+        .my-component footer button {
+            height: 1.5rem;
+            margin-left: 0.5rem;
+        }
+
+        .my-component article {
+            padding: 0.5rem;
+        }
     </style>
 </head>
 
 <body>
-    <div>Hello World</div>
+    <div class="my-component">
+        <header>
+            <img src="img/learn.svg" alt="Learn Icon">
+            <h1>My Components Heading</h1>
+            <img src="img/close.svg" role="button" tabindex="0" aria-label="Close">
+        </header>
+        <article>
+            <details>
+                <summary>Technologies</summary>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Did you know HTML could do this?</summary>
+                <label for="ice-cream-choice">Ice cream flavors</label>
+                <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+                <datalist id="ice-cream-flavors">
+                    <option value="Chocolate">
+                    <option value="Coconut">
+                    <option value="Mint">
+                    <option value="Strawberry">
+                    <option value="Vanilla">
+                </datalist>
+            </details>
+        </article>
+        <footer>
+            <button>Cancel</button>
+            <button>Accept</button>
+        </footer>
+    </div>
 </body>
 
 </html>
