@@ -233,4 +233,5 @@ Basic usage of CSS grid but a good understanding of what it is and what it gives
 The following two videos are required watching. Take notes and bookmark these resources for later. Questions will be asked on around their content.
 
 1. [CSS [Variable] Secrets](https://www.youtube.com/watch?v=UQRSaG1hQ20)
-2. [CSS Grid Changes EVERYTHING - Amazing Presentation](https://www.youtube.com/watch?v=7kVeCqQCxlk)
+2. [CSS FlexBox](https://www.youtube.com/watch?v=u044iM9xsWU)  
+3. [CSS Grid Changes EVERYTHING - Amazing Presentation](https://www.youtube.com/watch?v=7kVeCqQCxlk)
