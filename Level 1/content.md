@@ -1,16 +1,15 @@
 # Content Plan
 
-10 questions questionairre.
-Gerhard to run her through the questions
-Gerhard to do questions first thing Friday
-Gerhard to provide feedback
-
-- summary of topics -> tomorrow lunch time
-
-
 prepare interns on binding expresions - [Being used on Friday, done by thursday latest]
 prepare questions
 
+ - Check with JHR what is the future around customa action events and triggers vs binding expressions
+ - Template logic too specific to one template could it be capture higher up.
+ - Find process video created by Gerhard for server devs lets push it up to you tube if necessary.
+
+AA - Video on testing sequences?
+AA - Video on testing use of templates and sub processes.
+KR - Video on datasets
 
 Level 1
 KR - Web Components

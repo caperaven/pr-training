@@ -1,7 +1,5 @@
 # Binding Expressions
-1. What does once binding do?
-1. What does one-way binding do?
-1. What does two-way binding do?
+1. Explain the difference between once, one-way and two-way binding?
 1. What is the difference between .bind and .two-way?
 1. How do you make sure .once will be parsed with your value and displayed?
 1. What does the ref keyword do e.g ```<input ref="myInput"/>```
