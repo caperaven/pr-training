@@ -13,7 +13,19 @@
 1. Will the attribute being bound against in the following example be visible or hidden when condition = true? ```<div data-set.if="condition == false ? 'Yes' : 'No'">```
 1. How would you define more complex conditional binding, say for instance you had multiple conditions you needed to check, and you wanted to set a default value?
 
+//emit
+1. What would the args object look like when the following emit is fired:
+```<button click.emit="customEvent(message='A message', $context, items=${items})">Custom Event</button>```
+
 
 //post message
+1. If you have an eventEmitter.on("some-key") which event aggregation binding would you use to bind against?
+1. If you had a onMessage function within your component, which binding expression can you use to target that component directly?
+1. In the following example
+   ```<button click.post="got-contacts['input-contacts', 'input-form'](title='hello world', $event, contacts=${contacts})">Post Message</button>```
+    Which elements are being targeted?
+
 //set value
-//emit
+1. Explain what is happening in the following binding expresion example:
+   ```<button click.setValue="$globals.isActive = !$globals.isActive">MyButton</button>```
+

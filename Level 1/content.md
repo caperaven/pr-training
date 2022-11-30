@@ -10,13 +10,17 @@ prepare questions
 AA - Video on testing sequences?
 AA - Video on testing use of templates and sub processes.
 KR - Video on datasets
+KR TODO:
+- compile linked list of Rabie's schema videos
+- New schema videos
+- Work through project
 
 Level 1
 KR - Web Components
 - Web components vs is
+- AA - Whats an icon font
 AA - Shadow Root
 KR - Whats an SVG
-AA - Whats an icon font
 - How to create icons
 - How to use icon moon
 AA - Testability
