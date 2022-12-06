@@ -76,8 +76,8 @@
     13.2. dyanmic imports using the import function  
     13.3. export  
     13.4. import and export "default" objects or values  
-14. web workers
-    14.1. creating a web worker
-    14.2. passing messages to and from a worker
-    14.3. disposing a worker
+14. web workers  
+    14.1. creating a web worker  
+    14.2. passing messages to and from a worker  
+    14.3. disposing a worker  
  
