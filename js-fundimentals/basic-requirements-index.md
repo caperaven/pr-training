@@ -12,6 +12,7 @@
    3.4. read only properties ( getter only )  
    3.5. standard properties ( getter and setter )  
    3.5. methods, standard, async and private  
+   3.6. creating and using static members
 4. promises  
    4.1. create promise  
    4.2. call promise ("Promise.resolve()")  
