@@ -32,17 +32,23 @@
     <footer>copyright @me</footer>
 
     <script>
-        function findElement(element, query) {
-            if (element.matches(query)) return element;
-
+        function findElement(element, query, stack) {
             /**
              * Find a query in the tree, element's children's children that matches the query passed
-             * Once you find a item return it so basically writing your own queryselector using recursion
+             * Find the path of the element.
+             * If there are items with id values use that as part of the path.
+             * Else use the node name in the path.
+             *
+             * The result should look like this
+             * "BODY > MAIN > ARTICLE > #section3 > H2"
+             * if you use the query "#section3 h2"
              */
         }
 
-        const element = findElement(document.body, "h1");
-        console.log(element);
+        const stack = [];
+        const element = findElement(document.body, "#section3 h2", stack);
+        const result = stack.join(" > ")
+        console.log(result);
     </script>
 </body>
 </html>
