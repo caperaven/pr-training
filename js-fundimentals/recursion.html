@@ -32,7 +32,7 @@
     <footer>copyright @me</footer>
 
     <script>
-        function findElement(element, query, stack) {
+        function findPath(element, query, stack) {
             /**
              * Find a query in the tree, element's children's children that matches the query passed
              * Find the path of the element.
@@ -46,7 +46,7 @@
         }
 
         const stack = [];
-        findElement(document.body, "#section3 h2", stack);
+        findPath(document.body, "#section3 h2", stack);
         const result = stack.join(" > ")
         console.log(result);
     </script>
