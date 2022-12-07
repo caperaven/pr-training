@@ -12,6 +12,7 @@
    3.4. read only properties ( getter only )  
    3.5. standard properties ( getter and setter )  
    3.5. methods, standard, async and private  
+   3.6. creating and using static members
 4. promises  
    4.1. create promise  
    4.2. call promise ("Promise.resolve()")  
@@ -76,3 +77,8 @@
     13.2. dyanmic imports using the import function  
     13.3. export  
     13.4. import and export "default" objects or values  
+14. web workers  
+    14.1. creating a web worker  
+    14.2. passing messages to and from a worker  
+    14.3. disposing a worker  
+ 
