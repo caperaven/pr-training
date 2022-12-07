@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recursion</title>
+</head>
+<body>
+    <header>
+        <h1>My Heading</h1>
+    </header>
+
+    <main>
+        <article>
+            <section id="section1">
+                <h2>Heading 1</h2>
+                <p>Some text</p>
+            </section>
+            <section id="section2">
+                <h2>Heading 2</h2>
+                <p>Some text</p>
+            </section>
+            <section id="section3">
+                <h2>Heading 3</h2>
+                <p>Some text</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>copyright @me</footer>
+
+    <script>
+        function findElement(element, query) {
+            if (element.matches(query)) return element;
+
+            /**
+             * Find a query in the tree, element's children's children that matches the query passed
+             * Once you find a item return it so basically writing your own queryselector using recursion
+             */
+        }
+
+        const element = findElement(document.body, "h1");
+        console.log(element);
+    </script>
+</body>
+</html>
