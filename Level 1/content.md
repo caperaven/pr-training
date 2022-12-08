@@ -13,7 +13,17 @@ KR - Video on datasets
 KR TODO:
 - compile linked list of Rabie's schema videos
 - New schema videos
-- Work through project
+  - Dataset Intro [DONE]
+  - Setting up a view which uses schema (Rabie's videos)
+  - Schema and the new process-api
+  - Setting defaults and validations
+  - Linking datasources
+- Schema project
+  - Create a view that is schema driven which uses the grid component & toolbar which fires processes
+
+Schema videos cont.
+- nested datasets
+- bringing in datasources
 
 Level 1
 KR - Web Components
@@ -25,7 +35,7 @@ KR - Whats an SVG
 - How to use icon moon
 AA - Testability
 KR - Accessibility
-Both - Pojrects
+Both - Projects
 - Accessibility (next steps)
 - building out components
 
