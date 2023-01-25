@@ -3,13 +3,13 @@
 
 ## General
 
-1. Using consistent indentation and spacing - tab indentation is the default
+1. Using consistent indentation and spacing - tab indentation (4 spaces) is the default
 1. Using camelCase for variable and function names
 1. Using double quotes for strings
 1. Declaring variables with let or const instead of var
 1. Use const by default and only make it a let if it needs to change
 1. Using semicolons to end statements
-1. Grouping similar code together (e.g. all functions at the top of the file)
+1. Grouping similar code together
 1. Commenting code to explain its purpose and how it works. That includes functions, classes and their members.
 1. Using a linter like ESLint to enforce coding conventions
 1. Names of variables, classes, class members and functions should clearly describe its function
@@ -142,6 +142,12 @@ myObj.fetch?.()
 if (obj1?.obj2?.property == "test") ...
 ```
 
+**NOTE**
+You should not add "?." as a way to prevent null paths.
+First take the time to understand if having null objects on that path is a legitimate case.
+Only use "?." in scenarios where a path may not be fully defined.
+User descrision is a must.
+
 **providing a default value if a object is null**
 ```js
 const x = undefined;
@@ -169,7 +175,7 @@ For example, instead of registering a lot of click events on a component, instea
 ```html
 <div role="toolbar">
     <button id="btnSave" data-action="save">Save</button>
-    <button id="btnLoad" data-action="load">Save</button>
+    <button id="btnLoad" data-action="load">Load</button>
 </div>
 ```
 
@@ -247,6 +253,11 @@ else {
 
 1. The open bracket is on the same line as the condition.
 1. Alsways use === unless you do a null check then use ==
+
+There are minor exceptions to the rule.
+One such case is if you want to check an attribute value and see if it is equal to a number value.
+Attributes are always string but ("2" == 2) is a valid use case scenario also.
+Descression advised.
 
 ## Processing class properties
 
